@@ -3,6 +3,7 @@ import './App.css'
 // import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client';
 // import { setContext } from '@apollo/client/link/context';
 import { Outlet } from 'react-router-dom';
+import Nav from './components/Navigation/Navigation';
 // import Header from './components/Header';
 // import Footer from './components/Footer';
 
@@ -27,14 +28,17 @@ import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    // <ApolloProvider client={client}>
+    <>
+      <Nav /> 
+     {/* <ApolloProvider client={client}> */}
       <div>
         {/* <Header /> */}
         <div>
           <Outlet />
         </div>
       </div>
-    // </ApolloProvider>
+   {/* </ApolloProvider> */}
+    </>
   );
 }
 
