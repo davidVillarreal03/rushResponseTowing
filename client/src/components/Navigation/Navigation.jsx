@@ -5,7 +5,9 @@ function NavTabs() {
     const currentPage = useLocation().pathname;
 
     return (
+        <div className='container'>
             <ul className="nav nav-tabs">
+                <img src="/images/towtruck.jpg" alt="Image of a tow truck driving away" />
                 <li className="nav-item">
                     <Link
                         to="/"
@@ -39,6 +41,7 @@ function NavTabs() {
                     </Link>
                 </li>
             </ul>
+        </div>
         );
 }
 

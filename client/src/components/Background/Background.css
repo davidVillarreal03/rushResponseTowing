@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    top: 0px;
+    left: 0px;
+    height: 4000px;
+    width: 4000px;
+    position: fixed;
+    background-color: #333333;
+}
+
+.background h1 {
+    color: #333333;
+}

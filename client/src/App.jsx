@@ -5,6 +5,7 @@ import './App.css'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
+import Background from './components/Background/Background';
 // import Footer from './components/Footer';
 
 // const httpLink = createHttpLink({
@@ -29,6 +30,7 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <>
+      <Background />
       <Header />
       <Nav /> 
      {/* <ApolloProvider client={client}> */}
