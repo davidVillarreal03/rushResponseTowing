@@ -4,7 +4,7 @@ import './App.css'
 // import { setContext } from '@apollo/client/link/context';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Navigation/Navigation';
-// import Header from './components/Header';
+import Header from './components/Header/Header';
 // import Footer from './components/Footer';
 
 // const httpLink = createHttpLink({
@@ -29,6 +29,7 @@ import Nav from './components/Navigation/Navigation';
 function App() {
   return (
     <>
+      <Header />
       <Nav /> 
      {/* <ApolloProvider client={client}> */}
       <div>
