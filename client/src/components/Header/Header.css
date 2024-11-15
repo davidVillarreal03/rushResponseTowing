@@ -1,8 +1,7 @@
 
 .header {
     position: relative;
-    top: -80px;
-    right: 35px;
+    top: -300px;
     height: 100px;
     width: 675px;
 }
@@ -12,6 +11,7 @@
     position: absolute;
     top: 45px;
     left: 10px;
+    font-size: 30px
 }
 
 .header p {
@@ -19,8 +19,9 @@
     font-family: "Racing Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 45px;
     position: absolute;
     top: 50px;
+    left: 0px;
     right: 0px;
 }
