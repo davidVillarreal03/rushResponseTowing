@@ -31,16 +31,15 @@ function App() {
   return (
     <>
       <Background />
-      <Header />
-      <Nav /> 
-     {/* <ApolloProvider client={client}> */}
       <div>
-        {/* <Header /> */}
+        <Header />
         <div>
-          <Outlet />
+          <Nav />
+          <div>
+            <Outlet />
+          </div> 
         </div>
       </div>
-   {/* </ApolloProvider> */}
     </>
   );
 }

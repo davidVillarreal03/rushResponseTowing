@@ -1,27 +1,104 @@
 
 .header {
+    flex-wrap: wrap;
     position: relative;
-    top: -300px;
-    height: 100px;
+    top: -150px;
+    left: 150px;
     width: 675px;
 }
 
-.header h1 {
+#logo {
+    flex: 1;
     color: #d32f2f;
     position: absolute;
-    top: 45px;
-    left: 10px;
     font-size: 30px
 }
 
 .header p {
+    flex: 2;
     color: #d32f2f;
     font-family: "Racing Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 45px;
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    right: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header {
+        top: -150px;
+        left: 150px;
+    }
+    #logo {
+        top: -20px;
+        left: -100px;
+    }
+    .header p {
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .header {
+        top: -100px;
+        left: 100px;
+    }
+    #logo {
+        top: -20px;
+        left: -80px;
+    }
+    .header p {
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .header {
+        top: 0px;
+        left: 50px;
+    }
+    #logo {
+        top: -60px;
+        left: 300px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .header{
+        top: -30px;
+        left: -20px;
+    }
+    #logo {
+        top: -60px;
+        left: 300px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .header {
+        top: -30px;
+        left: -70px;
+    }
+
+    .header p {
+        font-size: 50px;
+    }
+    #logo {
+        top: -60px;
+        left: 300px;
+    }
+
+}
+@media only screen and (max-width: 550px) {
+    .header{
+        top: 20px;
+        left: -100px;
+    }
+    .header p {
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .header{
+        top: 20px;
+        left: -130px;
+    }
+    .header p {
+        font-size: 40px;
+    }
 }
