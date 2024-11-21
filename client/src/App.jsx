@@ -6,6 +6,7 @@ import { Outlet } from 'react-router-dom';
 import Nav from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Background from './components/Background/Background';
+// import Phone from './components/Phone/phone;'
 // import Footer from './components/Footer';
 
 // const httpLink = createHttpLink({
@@ -30,8 +31,10 @@ import Background from './components/Background/Background';
 function App() {
   return (
     <>
+
       <Background />
       <div>
+      {/* <Phone /> */}
         <Header />
         <div>
           <Nav />

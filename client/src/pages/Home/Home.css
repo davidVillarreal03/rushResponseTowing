@@ -1,8 +1,8 @@
 .home {
-    background-color: green;
+    background-color: blue;
     position: relative;
     top: 0px;
-    height: 600px;
+    height: 1000px;
     width: 100%;
 }
 h1 {
@@ -12,77 +12,7 @@ h1 {
     font-weight: 200;
     font-style: normal;
     font-size: 48px;
-    /* position: static; */
     top: 50px;
     left: 0px;
     right: 0px;
-}
-
-.fa-phone {
-    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
-    background-color: #ff0000;
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    border-radius: 50%;
-    padding: 10px;
-    color: #ffffff;
-    font-size: 48px;
-    line-height: 50px;
-    position: sticky;
-    top: 0px;
-    left: 0px;
-}
-
-.fa-phone:hover {
-    opacity: 0.7;
-}
-@media only screen and (max-width: 1000px) {
-    .home {
-        width: 100%;
-        top: -100px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .home {
-        width: 95%;
-        top: 30px;
-        left: 15px;
-    }
-}
-@media only screen and (max-width: 700px) {
-    .home {
-        width: 90%;
-        top: -10px;
-        left: 0px;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .home {
-        width: 75%;
-        top: -10px;
-        left: 0px;
-    }
-}
-@media only screen and (max-width: 550px) {
-    .home {
-        width: 75%;
-        top: -10px;
-        left: -15px;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .home {
-        width: 65%;
-        top: -10px;
-        left: -10px;
-    }
-}
-@media only screen and (max-width: 400px) {
-    .home {
-        width: 50%;
-        top: -10px;
-        left: -5px;
-    }
 }
