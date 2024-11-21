@@ -6,6 +6,7 @@ import { Outlet } from 'react-router-dom';
 import Nav from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Background from './components/Background/Background';
+import Phone from './components/Phone/phone';
 // import Phone from './components/Phone/phone;'
 // import Footer from './components/Footer';
 
@@ -34,12 +35,12 @@ function App() {
 
       <Background />
       <div>
-      {/* <Phone /> */}
         <Header />
         <div>
           <Nav />
           <div>
             <Outlet />
+            <Phone />
           </div> 
         </div>
       </div>

@@ -3,7 +3,9 @@ import './phone.css';
 function Phone() {
     return (
         <div className='phone'>
-            <i className="fa-solid fa-phone" title='Give us a call'></i>
+            <a href='tel:+210-274-2785' title='Give us a call'>
+                <i className="fa-solid fa-phone" title='Give us a call'></i>
+            </a>
         </div>
     )
 }
