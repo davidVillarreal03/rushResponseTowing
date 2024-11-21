@@ -4,11 +4,13 @@
     flex-wrap: wrap;
     justify-content: center ;
     position: relative;
-    top: -150px;
-    left: -20px;
+    top: -100px;
+    left: -10px;
 }
 
 .nav li{
+    position: relative;
+    top: 0px;
     margin-bottom: 4px;
     border: #C0C0C0 10px solid;
     background-color: black;
@@ -48,4 +50,61 @@ li:nth-child(3) {
 }
 li:nth-child(4) {
     flex: 1 1 70%;
+}
+@media only screen and (max-width: 2000px) {    
+    .nav {
+        top: -130px;
+    }
+    .nav li {
+        font-size: 20px;
+        margin-right: 40px;
+    }
+    li:nth-child(1) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(2) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(3) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(4) {
+        flex: 1 1 0%;
+    }
+}
+@media(max-width: 1600px) {    
+    .nav li {
+        font-size: 20px;
+        margin-right: 40px;
+    }
+    li:nth-child(1) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(2) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(3) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(4) {
+        flex: 1 1 0%;
+    }
+}
+@media (max-width: 1300px) {    
+    .nav li {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    li:nth-child(1) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(2) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(3) {
+        flex: 1 1 0%;
+    }
+    li:nth-child(4) {
+        flex: 1 1 0%;
+    }
 }
