@@ -3,12 +3,12 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import App from './App'
-import ErrorPage from './src/components/pages/Error/ErrorPage';
-import Home from './src/components/pages/Home/Home';
-import Login from './src/components/pages/Login/Login';
-import About from './src/components/pages/About/About';
-import Services from './src/components/pages/Services/Services';
-import Contact from './src/components/pages/Contact/Contact';
+import ErrorPage from './pages/Error/ErrorPage';
+import Home from './pages/Home/Home';
+import Login from './pages/Login/Login';
+import About from './pages/About/About';
+import Services from './pages/Services/Services';
+import Contact from './pages/Contact/Contact';
 
 const router = createBrowserRouter([
   {
