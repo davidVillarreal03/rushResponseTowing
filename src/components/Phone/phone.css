@@ -1,4 +1,4 @@
-.fa-phone {
+.phone {
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
     background-color: #ff0000;
     width: 50px;
@@ -14,7 +14,10 @@
     left: 10px;
 }
 
-.fa-phone:hover {
+.phone a {
+    color: white;
+}
+.phone:hover {
     opacity: 0.7;
 }
 
@@ -23,10 +26,11 @@
         rotate: 0deg;
     }
     50% {
-        rotate: 10deg;
+        rotate: 100deg;
     }
 }
 
-.fa-phone {
-    animation: bounce 2s infinite;
+.phone {
+    animation: bounce 200ms 3;
+    animation-delay: 10s;
 }

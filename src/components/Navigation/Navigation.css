@@ -22,7 +22,7 @@
     list-style: none;
 } 
 
-li:hover { 
+.nav li:hover { 
   padding: 10px 45px 10px 45px;
   border-radius: 5px;
   border: #C0C0C0 10px solid;
@@ -30,25 +30,25 @@ li:hover {
   color: #ffffff;
 }
 
-a {
+.nav a {
     color: #ffffff;
 }   
 
-a:hover {
+.nav a:hover {
     color: #C0C0C0;
 }
 
 
-li:nth-child(1) {
+.nav li:nth-child(1) {
     flex: 1 1 10%;
 }
-li:nth-child(2) {
+.nav li:nth-child(2) {
     flex: 1 1 10%;
 }
-li:nth-child(3) {
+.nav li:nth-child(3) {
     flex: 1 1 10%;
 }
-li:nth-child(4) {
+.nav li:nth-child(4) {
     flex: 1 1 70%;
 }
 @media only screen and (max-width: 2000px) {    

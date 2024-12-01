@@ -6,7 +6,7 @@ function NavTabs() {
 
     return (
             <ul className="nav nav-tabs">
-                <li className="nav-item">
+                <li className="nav-item" id='home'>
                     <Link
                         to="/"
                         className={currentPage === "/" ? "nav-link active" : "nav-link"}
@@ -14,7 +14,7 @@ function NavTabs() {
                         Home
                     </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" id='about'>
                     <Link
                         to="/About"
                         className={currentPage === "/About" ? "nav-link active" : "nav-link"}
@@ -22,7 +22,7 @@ function NavTabs() {
                         About
                     </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" id='services'>
                     <Link
                         to="/Services"
                         className={currentPage === "/Services" ? "nav-link active" : "nav-link"}
@@ -30,7 +30,7 @@ function NavTabs() {
                         Services
                     </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" id='contact'>
                     <Link
                         to="/Contact"
                         className={currentPage === "/Contact" ? "nav-link active" : "nav-link"}

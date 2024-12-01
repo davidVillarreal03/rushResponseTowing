@@ -4,7 +4,7 @@ function Phone() {
     return (
         <div className='phone'>
             <a href='tel:+210-954-9547' title='Give us a call'>
-                <i className="fa-solid fa-phone" title='Give us a call'></i>
+                <i className="fa-solid fa-phone fixed" title='Give us a call'></i>
             </a>
         </div>
     )

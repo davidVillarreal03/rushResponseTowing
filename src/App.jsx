@@ -7,7 +7,7 @@ import Nav from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Background from './components/Background/Background';
 import Phone from './components/Phone/phone';
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 // import Phone from './components/Phone/phone;'
 
 // const httpLink = createHttpLink({
@@ -40,6 +40,7 @@ function App() {
           <Nav />
           <div>
             <Outlet />
+            <Footer />
             <Phone />
           </div> 
         </div>
