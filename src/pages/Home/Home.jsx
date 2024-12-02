@@ -22,7 +22,7 @@ export default function Home() {
 
                 <section className='about-preview'>
                     <h2>Need to get to know us better? Checkout our pages to learn more about us!</h2>
-                    <a href='/About'><strong>About Us</strong></a>
+                    <a href='#about'><strong>About Us</strong></a>
                 </section>
 
             </div>

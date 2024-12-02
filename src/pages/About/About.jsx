@@ -25,7 +25,7 @@ export default function About() {
                                 <li><i className='fa-solid fa-circle-check'></i><strong>Fast Response Times:</strong> When you call, we're ready. Our tow trucks are located to ensure minimal wait times.</li>
                                 <li><i className='fa-solid fa-circle-check'></i><strong>24/7 Availability:</strong> No matter the time of day or night, we're here to help.</li>
                                 <li><i className='fa-solid fa-circle-check'></i><strong>Skilled Professionals:</strong> Our team of licesned and trained drivers ensures your vehicle is handled with care.</li>
-                                <li>See the services we provide here: <a href="/Services">Services</a></li>
+                                <li>See the services we provide here: <a href="#services">Services</a></li>
                             </ul>
                         
                     </div>
