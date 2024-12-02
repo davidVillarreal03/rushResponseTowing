@@ -1,5 +1,5 @@
 import './Footer.css'
-
+import { Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <footer className='site-footer'>
@@ -13,10 +13,10 @@ export default function Footer() {
                 <div className='footer-links'>
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href = '#home'>Home</a></li>
-                        <li><a href = '#services'>Services</a></li>
-                        <li><a href = '#about'>About</a></li>
-                        <li><a href = '#contact'>Contact</a></li>
+                        <li>{' '}<Link to = "/"> Home </Link></li>
+                        <li>{' '}<Link to = "/About"> About </Link></li>
+                        <li>{' '}<Link to = "/Services"> Services </Link></li>
+                        <li>{' '}<Link to = "/Contact"> Contact </Link></li>
                     </ul>
                 </div>
                 
@@ -25,7 +25,8 @@ export default function Footer() {
                     <h3>Please contact us.</h3>
                     <p><i className="fa-solid fa-phone"></i><a href='tel:+210-954-9547'> +1 (210)954-9547</a></p>
                     <p><i className="fa-solid fa-envelope"></i><a href='mailto:rushresponsetowing@gmail.com'> rushresponsetowing@gmail.com</a></p>
-                    <p><i className="fa-solid fa-map-marker-alt"></i> Serving San Antonio, TX and Nearby Areas</p>
+                    <p><i className="fa-solid fa-location-dot"></i> 11219 West Ave, San Antonio, TX 78213</p>
+                    <p><i className="fa-solid fa-clock"></i> Available 24/7</p>
         
                 </div>
             </div>

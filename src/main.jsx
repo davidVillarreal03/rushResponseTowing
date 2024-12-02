@@ -9,7 +9,7 @@ import Login from './pages/Login/Login';
 import About from './pages/About/About';
 import Services from './pages/Services/Services';
 import Contact from './pages/Contact/Contact';
-// import Reviews from './pages/Reviews/Reviews';
+import Reviews from './pages/Reviews/Reviews';
 
 const router = createBrowserRouter([
   {
@@ -38,10 +38,10 @@ const router = createBrowserRouter([
         path: '/contact', 
         element: <Contact />,
       },
-      // {
-      //   path: '/reviews', 
-      //   element: <Reviews />,
-      // },
+      {
+        path: '/reviews', 
+        element: <Reviews />,
+      },
     ]
   },
 ]);

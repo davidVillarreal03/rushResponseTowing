@@ -1,4 +1,5 @@
 import './About.css'
+import { Link } from 'react-router-dom'
 export default function About() {
     return (
         <div>
@@ -25,7 +26,7 @@ export default function About() {
                                 <li><i className='fa-solid fa-circle-check'></i><strong>Fast Response Times:</strong> When you call, we're ready. Our tow trucks are located to ensure minimal wait times.</li>
                                 <li><i className='fa-solid fa-circle-check'></i><strong>24/7 Availability:</strong> No matter the time of day or night, we're here to help.</li>
                                 <li><i className='fa-solid fa-circle-check'></i><strong>Skilled Professionals:</strong> Our team of licesned and trained drivers ensures your vehicle is handled with care.</li>
-                                <li>See the services we provide here: <a href="#services">Services</a></li>
+                                <li>See the services we provide here: <Link to="/Services">Services</Link></li>
                             </ul>
                         
                     </div>
@@ -41,7 +42,7 @@ export default function About() {
                         <h3>A Name You Can Trust</h3>
                         <p>
                             In the coming years, we're excited to expand our reach, expanding our services to include towing and vehicle recovery for a wider range of vehicles.
-                            Checkout our reviews to see why you should trust Rush Response Towing: <a href="/Reviews">Reviews</a>
+                            Checkout our reviews to see why you should trust Rush Response Towing: <Link to="/Reviews">Reviews</Link>
                         </p>
                     </div>
 
