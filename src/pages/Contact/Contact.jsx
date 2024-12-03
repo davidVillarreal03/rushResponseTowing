@@ -1,10 +1,16 @@
 import './Contact.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 export default function Contact() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <div>
             <section className='contact-page'>
-                <div className='contact-header'>
+                <div className='contact-header' data-aos="zoom-in">
                     <h1>Need Help Now? Contact Us! Available 24/7.</h1>
                     <p>We're here to help. Reach out to us anytime, and we'll respond promptly.</p>
                     <p>Office Hours:</p>
@@ -14,11 +20,11 @@ export default function Contact() {
 
                 <div className='contact-info'>
 
-                    <div className='contact-item'>
+                    <div className='contact-item' data-aos="fade-down">
                         <i className="fa-solid fa-map-marker-alt"></i>
-                        <h3>Visit Us</h3>
-                        <p>11219 West Ave San Antonio, TX 78213</p>
-                        <div className='contact-map'>
+                        <h3 data-aos="fade-right">Visit Us</h3>
+                        <p data-aos="fade-right">11219 West Ave San Antonio, TX 78213</p>
+                        <div className='contact-map' data-aos="fade-down">
                             <h2>Find Us Here</h2>
                             <a 
                             href="https://www.google.com/maps/place/11219+West+Ave,+San+Antonio,+TX+78213/@29.5420424,-98.5163594,14z/data=!4m5!3m4!1s0x865c6043ad7ed6fd:0x94635f052e3fa032!8m2!3d29.5420424!4d-98.5163594"
@@ -32,9 +38,11 @@ export default function Contact() {
                 </div>
 
                 <div className="contact-form-container">
-                    <h1>Need a quote or schedule a tow? Get in touch!</h1>
-                    <h1>Contact form</h1>
-                    <form className="contact-form">
+                    <div data-aos="fade-right">
+                        <h1>Need a quote or schedule a tow? Get in touch!</h1>
+                        <h1>Contact form</h1>
+                    </div>
+                    <form className="contact-form" data-aos="fade-down">
                         <label for="name">Name</label>
                         <input type='text' id='name' name="name" placeholder='Your full name' required></input>
 

@@ -1,4 +1,7 @@
 import './App.css'
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+
 // Anything that is commented out is for things that are required for a backend to work 
 // import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client';
 // import { setContext } from '@apollo/client/link/context';
