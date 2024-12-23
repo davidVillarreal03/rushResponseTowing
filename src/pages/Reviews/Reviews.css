@@ -1,0 +1,81 @@
+.reviewPage{
+    font-family: arial, sans-serif;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    padding: 40px 20px;
+    line-height: 1.5;
+}
+
+
+.reviewHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.reviewHeader h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.reviewHeader p{
+    font-size: 16px;
+    color: #d3d3d3;
+}
+
+.addReview p{
+    font-size: 16px;
+    color:#d3d3d3;
+}
+
+/* #reviewStars li{
+    margin: 10px;
+    font-size: 30px;
+    display: inline-flex;
+    list-style: none;
+    cursor: pointer;
+} */
+
+.rateBtn{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+
+
+  .rateBtn label{
+    color: #cccccc;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: color 0.3s ease;  
+  }
+
+  .rateBtn label:hover{
+    color: #ffcc00;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .rateBtn label:hover ~ label{
+    color: #ffcc00;
+  }
+
+    .rateBtn input[type="radio"] {
+      display: none;
+    }
+    
+    .rateBtn input[type="radio"]:checked ~ label {
+      color: #ffd700;
+    }
+    
+  @media (max-width: 768px) {
+        .rateBtn i {
+          font-size: 15px;
+        }
+        .rateBtn button{
+          padding: 0px;
+          height: 30px;
+          width: 30px;
+        }
+      }

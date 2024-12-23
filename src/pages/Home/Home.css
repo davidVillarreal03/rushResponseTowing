@@ -68,7 +68,7 @@ p {
     margin: 20px 0;
 }
 
-img {
+.home-page img {
     top: 0px;
     height: 500px;
     width: 100%;
@@ -134,7 +134,7 @@ img {
   }
   
   @media (max-width: 450px) {
-    img {
+    .home-page img {
         height: 300px;
     }
   }
