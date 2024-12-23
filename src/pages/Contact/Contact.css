@@ -1,3 +1,17 @@
+.return-home a{
+    font-size: 30px;
+    color: #ff0000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.thankyou-page h1 {
+    font-weight: bold;
+    color: #ffd700;
+}
+.thankyou-page p {
+    font-size: 25px;
+    color: #d3d3d3;
+}
 .contact-page {
     font-family: arial, sans-serif;
     color: #ffffff;
@@ -167,6 +181,7 @@
 }
 
 @media (max-width: 768px) {
+    
     .contact-form-container {
         padding: 20px;
     }

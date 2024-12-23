@@ -1,0 +1,22 @@
+.thankyou-page{
+    font-family: arial, sans-serif;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    padding: 40px 20px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .thankyou-page{
+        padding: 20px;
+    }
+    .thankyou-page h1{
+        font-size: 24px;
+    }
+    .thankyou-page p{
+        font-size: 16px;
+    }
+    .return-home a{
+        font-size: 20px;
+    }
+}
