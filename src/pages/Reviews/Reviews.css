@@ -69,6 +69,28 @@
       color: #ffd700;
     }
     
+    #reviews-container {
+      margin-top: 20px;
+    }
+
+    .review-card {
+      border: 8px solid #ffd700;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 9px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .review-card p{
+      color: #d3d3d3;
+      font-size: 1.2rem;
+    }
+
+    .review-card .rating{
+      color: #ffcc00;
+      font-size: 1.5rem;
+    }
+
   @media (max-width: 768px) {
         .rateBtn i {
           font-size: 15px;

@@ -11,14 +11,37 @@ export default function Reviews () {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const rating = e.target.rating.value;
-        const name = e.target.name.value;
-        const review = e.target.review.value;
+        const name = document.getElementById('name').value;
+        const rating = document.querySelector('input[name="rating"]:checked')?.value;
+        const review = document.getElementById('review').value;
         
+        if (!name || !rating || !review) {
+            alert('Please fill out all fields');
+            return;
+        }
+
+        const reviewContainer = document.getElementById('reviews-container');
+
+        const reviewCard = document.createElement('div');
+        reviewCard.className = 'review-card';
+
+        reviewCard.innerHTML = `
+
+            <p>"${review}"</p>
+            <div class="rating">${'★'.repeat(rating)}${'☆'.repeat(5 - rating)}</div>
+            <h3>- ${name}</h3><div>${new Date().toLocaleDateString()}</div>
+
+        `;
+
+        reviewContainer.appendChild(reviewCard);
+
+        document.getElementById('review-form').reset();
+
         console.log(`${rating}, ${name}, ${review}`);
 
     }
     return (
+
         <section className='reviewPage'>
             <div className="reviewHeader">
                 <h1><strong>
@@ -27,15 +50,18 @@ export default function Reviews () {
                 </h1>
                 <p>This page serves as our way to show potential clients why they should reach out for our services.</p>
             </div>
-            <div className="reviews">
-                <h3>Reviews from past customers shown here</h3>
+
+            <div className="reviews" id="reviews-section">
+                <h2>Customer Reviews</h2>
+                <div id="reviews-container"></div>
             </div>
+
             <div className="addReview">
             <div className="contact-form-container">
                     <div data-aos="fade-right">
                         <h1>Want to add a review? Fill out the form below!</h1>
                     </div>
-                    <form className="contact-form" data-aos="fade-down" onSubmit={(e) => handleSubmit(e)}>
+                    <form className="contact-form" id="review-form" data-aos="fade-down" onSubmit={(e) => handleSubmit(e)}>
                         <h3>Rate your experience:</h3>
                         <div className='rateBtn'>
                             
