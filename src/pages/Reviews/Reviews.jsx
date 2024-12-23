@@ -43,7 +43,7 @@ export default function Reviews () {
     return (
 
         <section className='reviewPage'>
-            <div className="reviewHeader">
+            <div className="reviewHeader" data-aos="fade-up">
                 <h1><strong>
                 Don't Just Take Our Word, See What others have to say about us!
                 </strong>
@@ -51,7 +51,7 @@ export default function Reviews () {
                 <p>This page serves as our way to show potential clients why they should reach out for our services.</p>
             </div>
 
-            <div className="reviews" id="reviews-section">
+            <div className="reviews" id="reviews-section" data-aos="fade-down">
                 <h2>Customer Reviews</h2>
                 <div id="reviews-container"></div>
             </div>
