@@ -11,7 +11,7 @@ export default defineConfig({
     manifest: {
       name: 'Rush Response Towing',
       short_name: 'RushResponse', 
-      theme_color: '#ffffff',
+      theme_color: '#1c1c1c',
       icons: [
         {
           src: 'pwa-64x64.png',
