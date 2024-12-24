@@ -11,6 +11,7 @@ import Services from './pages/Services/Services';
 import Contact from './pages/Contact/Contact';
 import Reviews from './pages/Reviews/Reviews';
 import ThankYou from './pages/ThankYou/ThankYou';
+import Download from './pages/Download/Download'
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,11 @@ const router = createBrowserRouter([
       {
         path: '/thankyou',
         element: <ThankYou />
+      },
+
+      {
+        path: '/download',
+        element: <Download />
       }
     ]
   },
