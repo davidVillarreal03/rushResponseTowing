@@ -26,13 +26,6 @@ export default function Home() {
                 <section className='hero'>
 
                     <div data-aos="fade-up" className='hero-text' >
-                    <div className='hero-images' data-aos="fade-up">
-                         <ul>
-                            <li><img src='../../images/rrt1.png' alt='Image shows the company tow truck from the front of the driver side.'/></li>
-                            <li><img src='../../images/rrt2.png' alt='Image shows the company tow truck from the front of the passenger side.'/></li>
-                            <li><img src='../../images/rrt3.png' alt='Image shows the company tow truck from the back on the passenger side.'/></li>
-                        </ul>
-                    </div>
                         <h1>FAST, RELIABLE TOWING SERVICES - ANYTIME, ANYWHERE!</h1>
                         <p>Stranded? Need help? Rush Response Towing is just a call away. Let us get you back on the road quickly and safely.</p>
                         <div className='mobile-phonePhrase'>
@@ -40,12 +33,35 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
+                <div className='hero-page'>
 
-                <section className='about-preview' data-aos="fade-up">
-                    <h2>Need to get to know us better? Checkout our pages to learn more about us!</h2>
-                    <Link to='/about'>About Us</Link>
+                
+                <section className='page-preview' data-aos="fade-up">
+                <img className='hero-images' src='../../images/rrt1.png' alt='Image shows the company tow truck from the front of the driver side.'/>
+                    <h2>Need to get to know us better?</h2>
+                    <Link to='/about'>Learn more about our company</Link>
                 </section>
 
+                <section className='page-preview' data-aos="fade-up">
+                <img className='hero-images' src='../../images/rrt2.png' alt='Image shows the company tow truck from the front of the passenger side.'/>
+                    <h2>Ready to get started?</h2>
+                    <Link to='/services'>View Our Services</Link>
+                </section>
+
+                <section className='page-preview' data-aos="fade-up">
+                <img className='hero-images' src='../../images/rrt3.png' alt='Image shows the company tow truck from the back on the passenger side.'/>
+                    <h2>Have a question or need help?</h2>
+                    <Link to='/contact'>Contact Us Here</Link>
+                </section>
+
+                </div>
+                <section className='page-preview' data-aos="fade-up">
+                    <h2><Link to='/download'>Download Our App</Link></h2>
+                    <div>
+                        <p>Download our application so you have us on the go.
+                            This will allow you to make your tow request from the comfort of your phone.</p>
+                    </div>
+                </section>
             </div>
     )
 }

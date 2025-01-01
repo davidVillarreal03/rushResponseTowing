@@ -6,12 +6,13 @@ import Background from './components/Background/Background';
 import Phone from './components/Phone/phone';
 import Footer from './components/Footer/Footer';
 import Slider from './components/SlideInNavBar/SlideInNavBar';
-
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 function App() {
   return (
     <>
 
       <Background />
+      <ScrollToTop />
         <Slider />
         <Header />
             <Outlet />
