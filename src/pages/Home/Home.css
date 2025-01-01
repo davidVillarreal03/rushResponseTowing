@@ -121,6 +121,9 @@ p {
     margin: 20px 0;
 }
 
+#mid{
+    width: 75%;
+}
 
 .promo {
     background: linear-gradient(90deg, #ff0000, #2b2b2b);

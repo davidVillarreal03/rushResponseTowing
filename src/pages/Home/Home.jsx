@@ -42,7 +42,7 @@ export default function Home() {
                     <Link to='/about'>Learn more about our company</Link>
                 </section>
 
-                <section className='page-preview' data-aos="fade-up">
+                <section className='page-preview' data-aos="fade-up" id='mid'>
                 <img className='hero-images' src='../../images/rrt2.png' alt='Image shows the company tow truck from the front of the passenger side.'/>
                     <h2>Ready to get started?</h2>
                     <Link to='/services'>View Our Services</Link>
