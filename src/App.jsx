@@ -4,7 +4,7 @@ import './App.css'
 // import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client';
 // import { setContext } from '@apollo/client/link/context';
 import { Outlet } from 'react-router-dom';
-import Nav from './components/Navigation/Navigation';
+// import Nav from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Background from './components/Background/Background';
 import Phone from './components/Phone/phone';
@@ -38,7 +38,7 @@ function App() {
       <div>
         <Header />
         <div>
-          <Nav />
+          {/* <Nav /> */}
           <div>
             <Outlet />
             <Footer />

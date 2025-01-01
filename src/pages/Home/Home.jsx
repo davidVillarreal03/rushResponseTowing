@@ -68,14 +68,21 @@ export default function Home() {
                 </div>
 
                 <section className='hero' data-aos="fade-up">
-                    <div id="slider">
+                    {/* <div id="slider">
                         <ul id="slideWrap">
                             <li><img src='../../images/rrt1.png' alt='Image shows the company tow truck from the front of the driver side.'/></li>
                             <li><img src='../../images/rrt2.png' alt='Image shows the company tow truck from the front of the passenger side.'/></li>
                             <li><img src='../../images/rrt3.png' alt='Image shows the company tow truck from the back on the passenger side.'/></li>
                         </ul>
                             <a id="prev" onClick = {responsiveSlider}><i class="fa-solid fa-arrow-left"></i></a>
-                            <a id="next" onClick = {responsiveSlider}><i class="fa-solid fa-arrow-right"></i></a>
+                            <a id="next" onClick = {responsiveSlider}><i class="fa-solid fa-play"></i></a>
+                    </div> */}
+                    <div className='hero-images'>
+                         <ul>
+                            <li data-aos="fade-left"><img src='../../images/rrt1.png' alt='Image shows the company tow truck from the front of the driver side.'/></li>
+                            <li data-aos="fade-left"><img src='../../images/rrt2.png' alt='Image shows the company tow truck from the front of the passenger side.'/></li>
+                            <li data-aos="fade-left"><img src='../../images/rrt3.png' alt='Image shows the company tow truck from the back on the passenger side.'/></li>
+                        </ul>
                     </div>
 
                     <div data-aos="fade-up" >
