@@ -20,7 +20,7 @@ const SlideInNavBar = () => {
 
       {/* Side Navigation */}
       <nav className={`side-nav ${isOpen ? "active" : ""}`}>
-        {/* <button onClick={closeSidebar} className='close-btn'>&times;</button> */}
+        <button onClick={closeSidebar} className='close-btn'>&times;</button>
         <ul>
             <li><Link to="/" onClick={closeSidebar}>Home <i class="fa-solid fa-house"></i></Link></li>
             <li><Link to="/About" onClick={closeSidebar}>About <i class="fas fa-question-circle"></i></Link></li>
