@@ -44,7 +44,7 @@ export default function Contact() {
                     </div>
                     <form action="https://formsubmit.co/rushresponsetowing@gmail.com" method="POST"className="contact-form" data-aos="fade-down">
                         <input type="hidden" name="_subject" value="New Contact Form Submission"></input>
-                        <input type="hidden" name="_next" value="https://rushresponse2.netlify.app/thankyou"></input>
+                        <input type="hidden" name="_next" value="https://rushresponse.netlify.app/thankyou"></input>
                         
                         <label for="name">Name</label>
                         <input type='text' id='name' name="name" placeholder='Your full name' required></input>

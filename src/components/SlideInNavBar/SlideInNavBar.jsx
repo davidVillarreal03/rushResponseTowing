@@ -23,10 +23,10 @@ const SlideInNavBar = () => {
       {/* Side Navigation */}
       <nav className={`side-nav ${isOpen ? "active" : ""}`}>
         <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/About">About</Link></li>
-            <li><Link to="/Services">Services</Link></li>
-            <li><Link to="/Contact">Contact</Link></li>
+            <li><Link to="/">Home <i class="fa-solid fa-house"></i></Link></li>
+            <li><Link to="/About">About <i class="fas fa-question-circle"></i></Link></li>
+            <li><Link to="/Services">Services <i class="fas fa-road"></i></Link></li>
+            <li><Link to="/Contact">Contact <i class="fa-solid fa-paper-plane"></i></Link></li>
         </ul>
       </nav>
     </div>
