@@ -3,10 +3,18 @@ import { Link, useLocation } from 'react-router-dom';
 // import './Navigation.css';
 function Header() {
     const currentPage = useLocation().pathname;
-    const sideNav = document.getElementById("side-nav");
-    const handleClick = () => {
-        sideNav.classList.toggle('active');
-    }
+    // const menuBtn = document.getElementById("menu-btn");
+    // const sideNav = document.getElementById("side-nav");
+    // const handleClick = () => {
+    //     menuBtn.classList.toggle('active');
+    //     sideNav.classList.toggle('active');
+    // }
+    // const SlideInNavBar = () => {
+    //     const [isOpen, setIsOpen] = useState(false);
+    //     const toggleNav = () => {
+    //         setIsOpen(!isOpen);
+    //     }
+    // };
     return (
         
         <div className="header">
@@ -21,15 +29,6 @@ function Header() {
                     <h2>RUSHING to HOOK YOU UP!🚨</h2>
                 </div>
             </div>
-            <button id="menu-btn" class="menu-btn" onClick={handleClick}>☰ Menu</button>
-            <nav id="side-nav" class="side-nav">
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/About">About</Link></li>
-                    <li><Link to="/Services">Services</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
-                </ul>
-            </nav>
             <div className="nav-container">
                         <ul className="nav nav-tabs">
                                 <Link

@@ -4,7 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
-
+@media (max-width: 768px) {
+  #root{
+    padding: 0;
+  }
+}
 .logo-react {
   height: 6em;
   padding: 1.5em;

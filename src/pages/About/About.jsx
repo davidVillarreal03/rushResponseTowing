@@ -48,7 +48,7 @@ export default function About() {
                         <h3>A Name You Can Trust</h3>
                         <p>
                             In the coming years, we're excited to expand our reach, expanding our services to include towing and vehicle recovery for a wider range of vehicles.
-                            Checkout our reviews to see why you should trust Rush Response Towing: <Link to="/Reviews">Reviews</Link>
+                            {/* Checkout our reviews to see why you should trust Rush Response Towing: <Link to="/Reviews">Reviews</Link> */}
                         </p>
                     </div>
 

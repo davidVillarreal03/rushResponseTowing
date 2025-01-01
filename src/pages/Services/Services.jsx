@@ -8,6 +8,8 @@ export default function Services() {
     }, [])
     return (
         <div className='services-page' >
+            <div className='forBackground'>
+
             <div className='promo'>
                     <h2>Get a Free Tow!</h2>
                     <p>Your next tow can be free when you repair your vehicle
@@ -52,6 +54,7 @@ export default function Services() {
                 </div>
                 
             </section>
+            </div>
             
         </div>
     )
