@@ -66,6 +66,9 @@
     max-width: 100%;
     height: auto;
 }
+.download-page p{
+    text-transform: uppercase;
+}
 .mobile-container img{
     max-width: 100%;
     height: auto;
