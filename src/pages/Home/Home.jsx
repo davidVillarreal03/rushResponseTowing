@@ -35,7 +35,9 @@ export default function Home() {
                     </div>
                         <h1>FAST, RELIABLE TOWING SERVICES - ANYTIME, ANYWHERE!</h1>
                         <p>Stranded? Need help? Rush Response Towing is just a call away. Let us get you back on the road quickly and safely.</p>
-                        <p>Request assistance now by pressing the phone icon thats located on the bottom left of your screen!</p>
+                        <div className='mobile-phonePhrase'>
+                            <p>Request assistance now by pressing the phone icon thats located on the bottom left of your screen!</p>
+                        </div>
                     </div>
                 </section>
 

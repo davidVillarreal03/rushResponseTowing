@@ -184,3 +184,9 @@ p {
         font-size: 14px;
     }
 }
+
+@media (min-width: 769px) {
+    .mobile-phonePhrase{
+        display: none;
+    }
+}

@@ -34,3 +34,9 @@
     animation: bounce 200ms 3;
     animation-delay: 10s;
 }
+
+@media (min-width: 768px) {
+    .phone {
+        display: none;
+    }
+}
