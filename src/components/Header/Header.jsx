@@ -26,7 +26,8 @@ function Header() {
                     <img className='logo' src='../../rrt.svg' alt='logo for the company Rush Response Towing.'/>
                 </Link>
                 <div className='rush-phrase'>
-                    <h2>RUSHING to HOOK YOU UP!🚨</h2>
+                    <h2>RUSHING to HOOK YOU UP!</h2>
+                    {/* <span>🚨</span> */}
                 </div>
             </div>
             <div className="nav-container">
